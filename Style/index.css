@@ -1,0 +1,374 @@
+/* -----
+nav
+-------- */
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+
+position:sticky;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    
+
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:white;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: rgb(197, 40, 26);
+ box-shadow: 1px  6px 20px 0.1px black;
+ 
+
+
+  
+   
+   
+}
+.allsec{
+
+}
+.nav-mainlogo{
+    width: 20%;
+   
+
+
+}
+#main-logo{
+    width: 100px;
+    margin-top: 0px;
+}
+
+.nav-menus{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+   
+ 
+
+
+}
+.nav-menus a{
+    margin: 12px;
+    font-weight: bolder;
+    font-size: 17px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.nav-menus a:hover{
+    transform: scale(0.9);
+
+color: rgb(250, 124, 124);
+    text-shadow:  0px 0px 8px rgb(249, 93, 93);
+}
+/* Button Phone */
+#button-phone{
+    border: none;
+    color: white;
+    font-size: 15px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: rgb(209, 39, 24);
+  transition: 0.6s;
+
+}
+#button-phone:hover{
+    background-color: rgb(251, 64, 64);
+    box-shadow: 0px 0px 5px 3px rgb(255, 83, 83);
+    transform: none ;
+}
+
+/* -------
+    Food 1sec menu
+    ---------- */
+.allsec{
+
+}
+ .sec1-heading h1{
+    color: rgb(190, 22, 22);
+
+ }
+ .sec1-list .fa{
+    font-weight:600;
+   
+    
+
+ }
+ /* learnMore Button */
+ #sec1-learnmore{
+    border: none;
+    color: white;
+    width: 120px;
+    border-radius: 4px;
+    
+    background-color: rgb(207, 34, 34);
+ }
+ #sec1-learnmore:hover{
+    background-color: rgb(251, 89, 89);
+    box-shadow: 0px 0px 5px 1px rgb(249, 93, 93);
+ 
+ }
+ /* ----
+ Another Col--img 
+ ------ */
+ .sec1-img{
+    background-color: rgb(250, 239, 218);
+    border-radius: 10px;
+    height: 450px; 
+    transition: 0.6s;
+}
+.sec1-img:hover{
+    transform: scale(0.9);
+}
+/* images */
+#sec1-imgBurger,#sec1-imgAll,#sec1-imgMomo{
+    border-radius: 8px;
+    transition: 0.6s;
+
+}
+#sec1-imgBurger:hover,#sec1-imgAll:hover,#sec1-imgMomo:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 15px 2px rgb(7, 42, 33);
+
+
+}
+/* --------
+section 2
+---------- */
+.sec2-item{
+    
+background: url(../imageFood/background2.jpg);
+background-repeat: no-repeat;
+filter: grayscale(50%);
+justify-content: center;
+align-items: center;
+display: flex;
+backdrop-filter: blur("");
+background-size: cover;
+margin-top: 75px;
+color: rgb(89, 89, 89);
+height: 300px;
+margin-top: 80px;
+}
+/* Read More Button */
+#sec2-readmore{
+
+  border: none;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    border-radius: 4px;
+    
+    background-color: rgb(207, 34, 34);
+}
+#sec2-readmore:hover{
+   background-color: transparent;
+
+   color: red;
+    box-shadow: 0px 0px 5px 1px rgb(249, 93, 93);
+
+}
+/* -----------
+    Section 3  
+    -------------*/
+    .sec3-items {}
+    .sec3-items h1{
+        margin-top: 80px;
+color: rgb(160, 43, 43);
+
+    }
+
+.sec3-para{
+    text-align: center;
+
+
+}
+#sec3-img1 ,#sec3-img2,#sec3-img3{
+    width: 300px;
+    border-radius: 15px;
+    margin: 9px;
+    transition: 0.9s;
+    border-radius: 50%;
+
+    
+}
+#sec3-img2{
+    height: 300px;
+}
+#sec3-img1:hover ,#sec3-img2:hover,#sec3-img3:hover
+{
+    box-shadow: 0px 0px 18px 4px rgb(12, 8, 8);
+    transform: scale(0.95);
+
+}
+.sec3-items b{
+    color:rgb(10, 9, 9);
+
+
+}
+.sec3-items  p{
+    color: rgb(195, 40, 40);
+    font-weight: bolder;
+    font-size: 17px;
+
+  
+}
+.sec3-para .para{
+    color: rgb(117, 107, 95);
+}
+.sec3-time1{
+    color: rgb(132, 120, 97);
+}
+.sec3-food{
+    color: rgb(17, 14, 14);
+    font-weight: 600;
+    font-family:italic;
+}
+.sec3-para button{
+  border: none;
+   background-color: rgb(192, 22, 22);
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   border-radius: 5px;
+   transition: 0.7s;
+ 
+ border: 2px solid rgba(251, 40, 40, 0.853);
+}
+.sec3-para button:hover{
+  
+    background-color:transparent;
+    color: rgb(255, 69, 69);
+  
+ 
+}
+
+/* ---------
+   Testimonials
+   ----------- */
+.Testimonials{
+background-color: rgb(194, 34, 34);
+color: white;
+margin-top: 80px;
+
+
+}
+.Testimonials h1{
+    text-align: center;
+    font-weight: bolder;
+}
+/* -------------
+   Section 4    
+   ------------ */
+ .section4{
+    margin-top: 80px;
+ }
+   .section4 h1{
+text-align: center;
+color: rgb(216, 17, 17);
+font-family: sans-serif;
+font-weight: bold;
+transition: 0.8s;
+text-shadow: 0px 6px 3px  rgb(4, 4, 4);
+
+
+   }
+   .section4 h1:hover{
+    text-shadow: 0px 18px 3px  rgb(4, 4, 4);
+   }
+
+   /* Image-fixed background */
+   .img-fixed{
+    background: url(../imageFood/3dbg\ \(2\).jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-repeat: no-repeat;
+
+   }
+   .img-fixedtext{
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-size: 30px;
+ font-family: sans-serif;
+   
+    
+   }
+   #img-fixedbtn{
+   border: none;
+   background-color: rgb(182, 32, 32);
+   color: white;
+   border-radius: 5px;
+ 
+ margin-left: 100px;
+ border: 3px solid rgb(185, 35, 35);
+ transition: 0.9s;
+ font-weight: bold;
+    
+
+   }
+   #img-fixedbtn:hover{
+
+    background-color: transparent;
+    box-shadow: 0px 0px 7px 1px red;
+    
+   }
+
+   /* ---------
+      section 5  
+      ---------*/
+      .sec5-head h1{
+        color:rgb(104, 21, 21) ;
+        font-weight: bold;
+      }
+      .sec5-head p{
+        color: rgb(131, 129, 128);
+      }
+      #sec5-btn{
+        border: none;
+        background-color:rgb(135, 15, 15);
+        color: white;
+  
+        border-radius: 5px;
+        font-size: bolder;
+        transition: 0.9s;
+
+
+      }
+      #sec5-btn:hover{
+        background-color: rgb(240, 66, 66);
+        box-shadow: 0px 0px 12px 1px black;
+
+      }
+
+      /* ----Footer ------*/
+      .last-footer{
+        background-color: rgb(104, 8, 8);
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .fa-twitter-square,.fa-facebook-official,.fa-linkedin-square,.fa-instagram{
+        color: white;
+        margin:22px;
+        font-size: 90px;
+        transition: 0.7s;
+   
+        
+      }
+      .fa-twitter-square:hover,.fa-facebook-official:hover,.fa-linkedin-square:hover,.fa-instagram:hover{
+        transform: scale(1.1);
+        text-shadow: 0px 2px 13px rgb(253, 80, 80);
+      
+
+      }
